@@ -1,6 +1,6 @@
-# Real Estate Property Analysis
+# Real Estate Analysis
 
-Welcome to the **Estate-Insights** application, where users can explore and analyze real estate data to make informed decisions. This project leverages powerful machine learning models and data visualizations to help users understand property trends, recommend properties based on preferences, and provide valuable insights into the real estate market.
+Welcome to the **Gurgaon-Real-Estate-Insights** application, where users can explore and analyze real estate data to make informed decisions. This project leverages powerful machine learning models and data visualizations to help users understand property trends, recommend properties based on preferences, and provide valuable insights into the real estate market.
 
 ## Key Features:
 1. **Apartment Recommendation System**: Get personalized apartment recommendations based on location and other parameters.
