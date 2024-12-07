@@ -75,7 +75,7 @@ elif task == "Recommend by Apartment":
             # Create a new column with Markdown formatted links
             recommendation_df['Link'] = recommendation_df['Link'].apply(lambda x: f"[Link]({x})")
 
-            # Use st.markdown to display the table with clickable links
+            # st.markdown to display the table with clickable links
             for _, row in recommendation_df.iterrows():
                 st.markdown(f"- **{row['PropertyName']}**: {row['Link']}")
         else:

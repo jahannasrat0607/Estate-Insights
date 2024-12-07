@@ -1,12 +1,3 @@
-# import streamlit as st
-#
-# st.set_page_config(
-#     page_title="Real Estate Analytics App",
-#     page_icon='👋🏻'
-# )
-#
-# st.header('Welcome to Streamlit! 👋🏻')
-# st.sidebar.success('Select a demo above.')
 import streamlit as st
 from PIL import Image
 
@@ -14,10 +5,9 @@ from PIL import Image
 st.set_page_config(
     page_title="Real Estate Analytics App",
     page_icon='🏠',
-    layout="centered"  # Center the layout
+    layout="centered"
 )
 
-# Add a header with a welcoming message
 st.title("🏡 Real Estate Analytics App")
 st.markdown("""
     ## Welcome to the Real Estate Analytics App!  

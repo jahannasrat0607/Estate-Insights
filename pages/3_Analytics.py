@@ -17,7 +17,6 @@ import matplotlib.pyplot as plt
 import seaborn as sns
 import json
 
-# st.set_option('deprecation.showPyplotGlobalUse', False)
 # Set Streamlit app configuration
 st.set_page_config(
     page_title="Real Estate Insights",
@@ -80,17 +79,6 @@ st.markdown('<div class="section-header">Sector-wise Word Cloud</div>', unsafe_a
 sectors = list(sector_features.keys())
 selected_sector = st.selectbox("Select a sector to view its word cloud:", sectors)
 
-# if selected_sector:
-#     feature_text = sector_features[selected_sector]
-#     wordcloud = WordCloud(
-#         width=800, height=800, background_color='white',
-#         stopwords=set(['s']), min_font_size=10
-#     ).generate(feature_text)
-#     plt.figure(figsize=(10, 8), facecolor=None)
-#     plt.imshow(wordcloud, interpolation='bilinear')
-#     plt.axis("off")
-#     plt.tight_layout(pad=0)
-#     st.pyplot()
 if selected_sector:
     feature_text = sector_features[selected_sector]
     wordcloud = WordCloud(
